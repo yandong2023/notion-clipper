@@ -1,0 +1,15 @@
+{
+  "extends": "plasmo/tsconfig.base",
+  "exclude": ["node_modules"],
+  "include": [".plasmo/**/*", "src/**/*"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~*": ["./src/*"]
+    },
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true
+  }
+}
